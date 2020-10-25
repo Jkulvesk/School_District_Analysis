@@ -6,18 +6,22 @@ This analysis helps prepare the school board for making important decisions abou
 ## Results
 - **Impact of removing Thomas Hight School(THS) 9th grade scores on District Summary:**
   - Taking out the scores of the THS 9th grade students did not have much of an impact on the overall summary. It resuced the overall score by a tenth of a percent - from 65% overall passing percent to 64.9%. Removing the scores of the 9th grad at THS just removed 461 students from the overall analysis, which was around 1% of the total district population. 
+    District summary with data as-is:
+    
+    District summary with 9th grade Thomas High School data removed:
+    
   
 - Impact of removing THS 9th grade scores on School Summary:
-  - Removing
+  - Removing Thomas HS only impacted the score of Thomas HS. Removing 9th grade brought the HS scores down slightly for the highschool. The grades after were 93.18% passing math, 97.01% passing reading and 90.63% passing overall compared to 93.27% passing reading, 97.3% passing math and 90.9% passing overall. 
   
 - THS performance impact when removing 9th grade scores:
-  - vis a vis other school performance
+  - The adjustment of removing 9th grade scores for Thomas Highschool did not impact the schools acedemic ranking - #2 highest overall passing score.
   
-- Replacing 9th greade scores affects:
-  -Math and reading scores by grade by:
-  -Scores by school spending by:
-  -Scores by school size 
-  -Scores by school type  - no change
+- Replacing 9th grade scores affects:
+  -Math and reading scores by grade declined when replacing 9th grade scores by NaN. The grades after were 93.18% passing math, 97.01% passing reading and 90.63% passing overall compared to 93.27% passing reading, 97.3% passing math and 90.9% passing overall. 
+  -Scores by school spending were not impacted.      
+  -Scores by school size were not impacted
+  -Scores by school type were not impacted.
 
 ## Summary
 Replacing Thomas High School's reading and math scores with NaNs impacted the analysis by:
